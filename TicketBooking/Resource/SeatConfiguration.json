@@ -1,0 +1,104 @@
+
+[
+    {
+        "uniqueId": "seat_001",
+        "seatId": "A1"
+    },
+    {
+        "uniqueId": "seat_002",
+        "seatId": "A2"
+    },
+    {
+        "uniqueId": "seat_003",
+        "seatId": "A3"
+    },
+    {
+        "uniqueId": "seat_004",
+        "seatId": "A4"
+    },
+    {
+        "uniqueId": "seat_005",
+        "seatId": "A5"
+    },
+    {
+        "uniqueId": "seat_006",
+        "seatId": "B1"
+    },
+    {
+        "uniqueId": "seat_007",
+        "seatId": "B2"
+    },
+    {
+        "uniqueId": "seat_008",
+        "seatId": "B3"
+    },
+    {
+        "uniqueId": "seat_009",
+        "seatId": "B4"
+    },
+    {
+        "uniqueId": "seat_010",
+        "seatId": "B5"
+    },
+    {
+        "uniqueId": "seat_011",
+        "seatId": "C1"
+    },
+    {
+        "uniqueId": "seat_012",
+        "seatId": "C2"
+    },
+    {
+        "uniqueId": "seat_013",
+        "seatId": "C3"
+    },
+    {
+        "uniqueId": "seat_014",
+        "seatId": "C4"
+    },
+    {
+        "uniqueId": "seat_015",
+        "seatId": "C5"
+    },
+    {
+        "uniqueId": "seat_016",
+        "seatId": "D1"
+    },
+    {
+        "uniqueId": "seat_017",
+        "seatId": "D2"
+    },
+    {
+        "uniqueId": "seat_018",
+        "seatId": "D3"
+    },
+    {
+        "uniqueId": "seat_019",
+        "seatId": "D4"
+    },
+    {
+        "uniqueId": "seat_020",
+        "seatId": "D5"
+    },
+    {
+        "uniqueId": "seat_021",
+        "seatId": "E1"
+    },
+    {
+        "uniqueId": "seat_022",
+        "seatId": "E2"
+    },
+    {
+        "uniqueId": "seat_023",
+        "seatId": "E3"
+    },
+    {
+        "uniqueId": "seat_024",
+        "seatId": "E4"
+    },
+    {
+        "uniqueId": "seat_025",
+        "seatId": "E5"
+    }
+]
+

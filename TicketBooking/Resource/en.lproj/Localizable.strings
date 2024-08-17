@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  TicketBooking
+
+  Created by Ashvin Gudaliya on 15/08/24.
+  
+*/
+
+"Sign_up_Error_mandatory_field" = "Mandatory field";
+"Sign_up_Error_Valid_Email_field" = "Please enter a valid e-mail address";
+"Sign_up_Error_Valid_Fullname_field" = "Please enter a valid Full name";
+"Sign_up_Error_invalid_range_Fullname_field" = "Must have a min. of 3 characters, and max. of 25 characters";
+"Sign_up_Error_password_Full" = "Must have a min. of 8 characters, 1 capital and 1 number";
+"Sign_up_Error_password_Full_Capital" = "Must have a min. of 8 characters and 1 capital";
+"Sign_up_Error_password_Full_Number" = "Must have a min. of 8 characters and 1 number";
+"Sign_up_Error_password_Min_Characters" = "Must have a min of 8 characters";
+"Sign_up_Error_password_Capital_Number" = "Must have 1 capital and 1 number";
+"Sign_up_Error_password_Capital" = "Must have 1 capital";
+"Sign_up_Error_password_Number" = "Must have 1 number";
+"Login_Error" = "Invalidate email address and password";
+
+"title_login" = "Login";
+"title_onboarding" = "Onboarding";
+"title_registration" = "Registration";
+"title_dashboard" = "Dashboard";
+"title_select_seat" = "Select Seat";
+"title_select_date" = "Select Date";
+
+"alert_error" = "Error!";
+"alert_success" = "Success!";
+"alert_okay" = "Okay";
+
+"Sign_up_Error_email_already_register" = "Email address already registered.";
+"Error_local_generic" = "Something went wrong. Please try again later.";
+
+"good_evening" = "Good evening";
+"good_morning" = "Good morning";
+"good_afternoon" = "Good afternoon";
+"title_welcome" = "Welcome";
+"select_date_for_book_tickets" = "Please select a date to book your tickets.";
+"total_booking" = "Total Booking: ";
+"total_user_booked" = "Total User Booked: ";
+"tickets_fully_booked_for_selected_date" = "Tickets for the selected date are fully booked. Please choose another date to proceed with your booking.";
+"select_seat_for_book_tickets" = "Please select a seat to book your tickets.";
+"seat_wasnt_booked" = "It looks like the seat wasn't booked successfully. Please try again.";
+"seat_booked_successfully" = "Seat booked successfully!";
+"seats_are_currently_booked" = "All seats are currently booked. Please check back later or choose another date.";
+
+"full_name_placeholder" = "Full Name";
+"email_address_placeholder" = "Email Address";
+"password_placeholder" = "Password";
+"add_count_placeholder" = "Add count";
+
+"btn_book_my_ticket" = "Book my ticket";
+"btn_submit" = "Submit";
+"btn_generate_random" = "Generate random";
+"btn_book_ticket" = "Book Ticket";
+"btn_logout" = "Logout";
+"btn_done" = "Done";
+
+"lbl_booked_seat" = "Booked";
+"lbl_selected_seat" = "Selected";
+"lbl_available_seat" = "Available";

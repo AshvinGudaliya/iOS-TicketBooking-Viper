@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23G93" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Booking" representedClassName="Booking" syncable="YES">
+        <attribute name="bookingId" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="seatId" attributeType="String"/>
+        <attribute name="userId" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toSeat" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Seats" inverseName="toBooking" inverseEntity="Seats"/>
+        <relationship name="toUser" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Users" inverseName="toBooking" inverseEntity="Users"/>
+    </entity>
+    <entity name="Seats" representedClassName="Seats" syncable="YES">
+        <attribute name="seatId" attributeType="String"/>
+        <attribute name="uniqueId" attributeType="String"/>
+        <relationship name="toBooking" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Booking" inverseName="toSeat" inverseEntity="Booking"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES">
+        <attribute name="accessToken" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fullname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="userId" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="toBooking" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Booking" inverseName="toUser" inverseEntity="Booking"/>
+    </entity>
+</model>
