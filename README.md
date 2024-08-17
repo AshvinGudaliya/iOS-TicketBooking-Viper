@@ -1,13 +1,13 @@
 # iOS-TicketBooking-Viper
 This repository contains a detailed implementation of a Movies Ticket Booking System app using the VIPER architecture in iOS. It leverages libraries and frameworks such as CoreData, UIKit, and more.
 
-# Features
+## Features
 - **Account Registration:** Users can create a new account via the registration screen.
 - **Dashboard:** Displays the logged-in user’s information, total seats booked by all users, and current user's bookings.
 - **Login:** Existing users can log-in to access the dashboard.
 - **Booking Tickets:** Users can select a date from the calendar, view seat availability, and book tickets.
 
-# App Flow
+## App Flow
 
 **1. Registration Screen**
 - Users create an account with their details.
@@ -38,7 +38,7 @@ This repository contains a detailed implementation of a Movies Ticket Booking Sy
 - Users can finalize their booking by pressing the "Book Ticket" button.
 - This action confirms and completes the ticket booking process.
 
-# Screenshots for Application
+## Screenshots for Application
 <p align="center">
   <img src="Screenshots/onboarding.png" width="250">
   <img src="Screenshots/login.png" width="250">
@@ -50,7 +50,7 @@ This repository contains a detailed implementation of a Movies Ticket Booking Sy
 <br>
 <be>
 
-### Run Application 
+## Run Application 
 1. Clone this repository.
     ```
     git clone git@github.com:AshvinGudaliya/iOS-TicketBooking-Viper
@@ -66,6 +66,9 @@ This repository contains a detailed implementation of a Movies Ticket Booking Sy
 - Swift 5.0+
 - iOS 13.0+
 
-## Author
+## Contact
 
-Ashvin Gudaliya, ashvinkgudaliya@gmail.com
+**Author:** Ashvin Gudaliya,
+
+For any questions or feedback, please reach out to ashvinkgudaliya@gmail.com.
+ 
